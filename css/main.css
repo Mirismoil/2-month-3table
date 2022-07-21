@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  margin: 10% 20%;
+  width: 800px;
+  height: 350px;
+  border-collapse: collapse;
+  box-shadow: 10px 10px 30px 30px #7eaedf;
+}
+
+thead {
+  background-color: #7eaedf;
+}
+
+table, th, tr, td {
+  border: 1px solid black;
+  text-align: start;
+}
+
+tr:nth-child(2n) {
+  background-color: #ddeefe;
+}/*# sourceMappingURL=main.css.map */
